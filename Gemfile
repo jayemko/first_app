@@ -3,7 +3,7 @@ ruby '1.9.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '3.2.13'
-
+gem 'thin'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3','1.3.5' 

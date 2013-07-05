@@ -1,2 +1,1 @@
-web: script/rails server -p $PORT
-console: script/rails console
+web: bundle exec rails server thin -p $PORT -e $RACK_ENV
